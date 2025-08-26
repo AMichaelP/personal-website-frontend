@@ -12,10 +12,7 @@ CMD /usr/libexec/s2i/run
 
 FROM base AS build
 ENV NPM_RUN build
-RUN <<EOF
-cp -r public .next/standalone/
-cp -r .next/static .next/standalone/.next/
-EOF
+RUN cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/
 
 FROM build AS start
 ENV NPM_RUN start
