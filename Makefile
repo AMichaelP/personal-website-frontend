@@ -1,5 +1,5 @@
 T=personal-website-frontend
-P=3000
+P=8080
 
 default: run
 
