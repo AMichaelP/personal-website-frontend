@@ -1,10 +1,10 @@
 export const siteConfig = {
-  name: "My Portfolio",
-  title: "My Professional Website",
-  description: "Portfolio and contact information",
+  name: "Portfolio Name",
+  title: "Professional Website Title",
+  description: "Brief site description",
   hero: {
-    heading: "Welcome to My Professional Website",
-    subheading: "I'm a software developer building modern web applications.",
+    heading: "Hero heading placeholder",
+    subheading: "A short tagline describing the portfolio.",
     ctaProjects: "View Projects",
     ctaContact: "Contact Me",
   },
